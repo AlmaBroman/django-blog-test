@@ -28,11 +28,11 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['8000-almabroman-djangoblogte-y7x0n6tyofo.ws-eu106.gitpod.io', 'django-blog-test-a-40461ba718ba.herokuapp.com', 'localhost']
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-almabroman-djangoblogte-y7x0n6tyofo.ws-eu106.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://8000-almabroman-djangoblogte-y7x0n6tyofo.ws-eu106.gitpod.io', 'https://django-blog-test-a-40461ba718ba.herokuapp.com']
 
 # Application definition
 
