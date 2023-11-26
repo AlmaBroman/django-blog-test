@@ -10,8 +10,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
-from pathlib import Path
 import os
+from pathlib import Path
 import dj_database_url
 if os.path.isfile('env.py'):
     import env
@@ -31,6 +31,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['8000-almabroman-djangoblogte-y7x0n6tyofo.ws-eu106.gitpod.io', 'django-blog-test-a-40461ba718ba.herokuapp.com', 'localhost']
 
+CSRF_TRUSTED_ORIGINS = ['https://8000-almabroman-djangoblogte-y7x0n6tyofo.ws-eu106.gitpod.io']
 
 # Application definition
 
